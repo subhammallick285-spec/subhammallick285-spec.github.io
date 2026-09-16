@@ -15,20 +15,23 @@
       max-width: 780px;
       margin: 0 auto;
     }
-    h1 { font-size: 32px; margin-bottom: 8px; }
+    h1 { font-size: 34px; margin-bottom: 6px; }
     h2 { font-size: 20px; margin: 32px 0 12px; color: #79c0ff; }
+    h3 { font-size: 18px; margin-bottom: 8px; }
     p, li { color: #c9d1d9; }
     a { color: #58a6ff; text-decoration: none; }
     a:hover { text-decoration: underline; }
     ul { padding-left: 20px; }
+    li { margin-bottom: 4px; }
     .tag {
       display: inline-block;
       background: #21262d;
       color: #c9d1d9;
-      padding: 3px 9px;
+      padding: 4px 10px;
       border-radius: 6px;
-      font-size: 12px;
+      font-size: 13px;
       margin: 4px 6px 4px 0;
+      border: 1px solid #30363d;
     }
     .card {
       background: #161b22;
@@ -37,18 +40,20 @@
       padding: 20px;
       margin: 16px 0;
     }
-    .muted { color: #8b949e; font-size: 14px; }
+    .muted { color: #8b949e; font-size: 15px; }
+    .contact-list li { list-style: none; padding-left: 0; }
   </style>
 </head>
 <body>
 
   <h1>Subham Mallick</h1>
   <p class="muted">Full-Stack Developer · Cloudflare Workers · D1 · JavaScript · OCR</p>
+  <p class="muted" style="margin-top:6px;">📍 Kendujhar, Odisha, India · 🎓 IITM BS Degree (2nd year, in progress)</p>
 
   <h2>Featured Project</h2>
   <div class="card">
     <h3>Generator Fuel Calculator</h3>
-    <p>A serverless web app that lets field engineers photograph generator meter readings and auto-extract values with AI, routed through an admin approval workflow.</p>
+    <p>A serverless web app that lets field engineers photograph generator meter readings and auto-extract values with AI, routed through an admin approval workflow. Built on Cloudflare Workers, D1, and Workers AI (Llama 3.2 Vision).</p>
     <p style="margin-top:12px;">
       <a href="https://generator-fuel-calculator-2.balancecalc.workers.dev">🔗 Live demo</a> &nbsp;·&nbsp;
       <a href="https://github.com/subhammallick285-spec/generator-fuel-calculator-2-">📁 Source code</a>
@@ -58,8 +63,12 @@
   <h2>Tech Stack</h2>
   <div>
     <span class="tag">JavaScript</span>
+    <span class="tag">TypeScript</span>
+    <span class="tag">Python</span>
     <span class="tag">HTML5</span>
     <span class="tag">CSS3</span>
+    <span class="tag">React</span>
+    <span class="tag">Node.js</span>
     <span class="tag">SQL</span>
     <span class="tag">Cloudflare Workers</span>
     <span class="tag">Cloudflare D1</span>
@@ -69,12 +78,23 @@
     <span class="tag">Chrome DevTools</span>
   </div>
 
+  <h2>Education</h2>
+  <div class="card">
+    <h3>IIT Madras — BS Degree</h3>
+    <p class="muted">In progress · 2nd year</p>
+    <p class="muted" style="margin-top:8px;">Completed 12th standard</p>
+  </div>
+
   <h2>Contact</h2>
-  <ul>
-    <li>GitHub: <a href="https://github.com/subhammallick285-spec">@subhammallick285-spec</a></li>
-    <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
-    <li>Location: India · Open to remote</li>
+  <ul class="contact-list">
+    <li>📧 <a href="mailto:subhammallick285@gmail.com">subhammallick285@gmail.com</a></li>
+    <li>📱 +91 8926386512</li>
+    <li>🔗 <a href="https://github.com/subhammallick285-spec">github.com/subhammallick285-spec</a></li>
   </ul>
+
+  <p class="muted" style="margin-top:40px;font-size:13px;">
+    Open to entry-level / junior full-stack web developer roles and short freelance projects.
+  </p>
 
 </body>
 </html>
